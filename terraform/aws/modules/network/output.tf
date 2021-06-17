@@ -20,4 +20,4 @@ output "target_lb_security_group" {
 
 output "elb_url" {
   value = "http://${aws_lb.km_lb.dns_name}"
-}
+} 
